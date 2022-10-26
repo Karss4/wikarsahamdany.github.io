@@ -1,0 +1,164 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pixelate');
+
+
+                
+
+body{
+    font-family: 'SF Pixelate', sans-serif;
+    font-family: 'SF Pixelate shaded', sans-serif;
+    min-height: 100vh; 
+    
+    
+   
+ }
+
+a {
+    text-decoration: none !important
+  }
+    
+    
+
+                
+
+#bgm1 {
+    background-image: url(/Images/bg-11.gif);
+    transition: .2s;
+    transform-style: initial;
+    transition-delay: .2s;
+    background-position : center;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+}
+
+
+nav{
+    transition: .5s;
+}
+
+.nav-item {
+    transition: .2s;
+    
+}
+
+.nav-item:hover {
+    background-color: rgb(92, 95, 98);
+}
+
+.logo {
+    width: 250px;
+    height: 100px; 
+    background-size: cover;
+    transition: .2s;
+}
+
+.gif {
+    width: 100px;
+    height: 100px;
+}
+
+.mid {
+    border: solid 5px;
+    border-color: black;
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0px 0px 50px;
+}
+
+.backgroundBio1 {
+    background-image: url(/Images/ezgif-1.gif);
+    color: dark;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark {
+    background-image: url(/Images/bg-letsgo.gif);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    outline-color: dark;
+    color: dark;
+    border: solid 2px;
+}
+
+
+.btn {
+    box-shadow: 1px 1px 0px black;
+    
+}
+
+.btn:hover {
+    box-shadow: 6px 6px 0px black;
+}
+
+.content2 {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 50px;
+  }
+
+
+/* Lets-go!! */
+
+
+
+.background-letsgo {
+    background-image: url(./Images/bg-letsgo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+.content3 {
+    max-height: 100%;
+    margin-left: 400px;
+    
+    
+
+  }
+
+  .content4 {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 400px ;
+    padding: 40px;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 50px;
+  }
+
+.background-lets-go {
+
+    background-image: url(/Images/ezgif-1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+canvas {
+    padding: 0; 
+    margin: auto;
+    display: block;
+    width:100%;
+}
+
+#gameArea {
+    width:100%;
+    position: relative;
+}
+
+#game {
+    margin:50px;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bootstrap-5/bootstrap-5.0.2-examples/jumbotron"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kars Portofolio"
+	}
+}
