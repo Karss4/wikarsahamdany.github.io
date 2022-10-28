@@ -4,8 +4,7 @@
                 
 
 body{
-    font-family: 'SF Pixelate', sans-serif;
-    font-family: 'SF Pixelate shaded', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh; 
     
     
@@ -27,7 +26,8 @@ a {
     transition-delay: .2s;
     background-position : center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+
     
     
 }
