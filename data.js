@@ -12,7 +12,7 @@ function bgb1() {
     let bg1 = document.getElementById("bgm1")
 
     bg1.addEventListener('mouseover', () => {
-        bgm1.style.backgroundImage = `url('Images/bg-11.gif')`;
+        bgm1.style.backgroundImage = `url('Images/bg-1.jpg')`;
     });
 }
 
@@ -32,7 +32,7 @@ function bgb2() {
     let bg1 = document.getElementById("bgm1")
 
     bg1.addEventListener('mouseover', () => {
-        bgm1.style.backgroundImage = `url('Images/bg-11.gif')`;
+        bgm1.style.backgroundImage = `url('Images/bg-1.jpg')`;
     });
 }
 
