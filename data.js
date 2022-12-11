@@ -41,10 +41,8 @@ let mode = document.getElementById('mode')
 
 
 function darkMode() {
-    if (mode.textContent = "DarkMode" ) {
-        mode.textContent = `LightMode`;
 
-        background.classList.toggle("dark");
-        
+    background.classList.toggle('dark')
+    
     }
-}
+
